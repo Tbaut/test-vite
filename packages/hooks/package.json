@@ -1,9 +1,11 @@
 {
-  "name": "my-button",
+  "name": "@chainsafe/utils",
   "version": "1.0.0",
-  "private": true,
+  "private": false,
+  "main": "src/index.tsx",
   "scripts": {
-    "build": "rm -rf ./lib && tsc && node ../../script/copy.js"
+    "build": "rm -rf ./lib && tsc",
+    "build:copy": "yarn build && node ../../script/copy.js"
   },
   "keywords": [],
   "author": "",

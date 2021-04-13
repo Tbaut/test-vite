@@ -1,17 +1,22 @@
-import React from 'react'
-import ReactDOM from 'react-dom'
+import React from "react"
+import ReactDOM from "react-dom"
 
-import Card from 'my-card'
-import Button from 'my-button'
+import {useDoubleClick} from "@chainsafe/utils"
+// import Button from "my-button"
 
 function App() {
+  const {click} = useDoubleClick({
+    actionSingleClick: () => console.log("single"),
+    actionDoubleClick: () => console.log("double")
+  })
+
   return (
     <div>
-      <Card>Card demo</Card>
+      {/* <Card>Card demo</Card> */}
       <hr />
-      <Button>Button demo</Button>
+      <button onClick={click}>Click</button>
     </div>
   )
 }
 
-ReactDOM.render(<App />, document.getElementById('root'))
+ReactDOM.render(<App />, document.getElementById("root"))

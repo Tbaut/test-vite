@@ -5,7 +5,7 @@
     "lib": ["DOM"],
     "paths": {
       "my-button": ["../button/src/index.tsx"],
-      "my-card": ["../card/src/index.tsx"]
+      "@chainsafe/utils": ["../hooks/src/index.tsx"]
     }
   }
 }
