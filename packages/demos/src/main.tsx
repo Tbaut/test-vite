@@ -1,7 +1,7 @@
 import React from "react"
 import ReactDOM from "react-dom"
 
-import {useDoubleClick} from "@chainsafe/utils"
+import {useDoubleClick} from "@tbaut-test/utils"
 // import Button from "my-button"
 
 function App() {

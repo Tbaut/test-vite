@@ -6,6 +6,6 @@ module.exports = {
   plugins: [reactRefresh()],
   alias: {
     // 'my-button': 'my-button/src/index.tsx',
-    // '@chainsafe/utils': '@chainsafe/utils/src/index.tsx'
+    // '@tbaut-test/utils': '@tbaut-test/utils/src/index.tsx'
   }
 } as UserConfig

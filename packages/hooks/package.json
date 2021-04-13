@@ -1,5 +1,5 @@
 {
-  "name": "@chainsafe/utils",
+  "name": "@tbaut-test/utils",
   "version": "1.0.0",
   "private": false,
   "main": "src/index.tsx",
